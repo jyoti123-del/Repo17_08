@@ -18,6 +18,11 @@ public class Base1 {
 		WebDriver driver=new ChromeDriver();
 		ChromeOptions options =new ChromeOptions();
 		options.addArguments("--remote-allow-origines=*");	
+		
+		
+		
+		
+		
 		driver.get("https://mfg-ev-qa-admin.azurewebsites.net/");
 		//driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 	    driver.manage().timeouts().implicitlyWait(15,TimeUnit.SECONDS)	;
